@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    transition: 1s display ease-in-out;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+input, select, button{
+    outline: none !important;
+}
+button[disabled]{
+    opacity: 0.5;
+    pointer-events: none;
+}
